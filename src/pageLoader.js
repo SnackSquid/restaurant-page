@@ -20,6 +20,7 @@ const pageLoader = (() => {
         // load the main page
         pageLoader.classDiv('header', '#main')
         pageLoader.classDiv('leftSide', '#main')
+        pageLoader.classDiv('image', '#main');
         pageLoader.classDiv('content', '#main')
         pageLoader.classDiv('rightSide', '#main')
         pageLoader.classDiv('footer', '#main')
@@ -34,9 +35,15 @@ const pageLoader = (() => {
     const activateTab = (click) => {
         click.stopPropagation();
         const buttons = document.querySelectorAll('.header > button');
+        const tabID = click.currentTarget.id;
         buttons.forEach(button => button.classList.remove('activeTab'))
-        const activeTab = document.querySelector(`#${click.currentTarget.id}`);
+        const activeTab = document.querySelector(`#${tabID}`);
         activeTab.classList.add('activeTab');
+    }
+
+    const changeImage = (tabID) => {
+        const image = document.querySelector('image');
+
     }
 
     return { classDiv, loadPage, navButtons, activateTab }
