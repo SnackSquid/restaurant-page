@@ -4,14 +4,18 @@ console.log('clownpenis.fart')
 
 const divBuilder = (() => {
 
-    const classDiv = (name, parent) => {
-        const parent = document.querySelector(parent);
+    const classDiv = (divClass, parentClass) => {
+        const parent = document.querySelector(parentClass);
         const div = document.createElement('div');
-        div.classList.add(name);
+        div.classList.add(divClass);
         parent.appendChild(div);
     }
 
-    { classDiv }
+    return { classDiv }
 })();
 
-divBuilder.classDiv('.header', '#content');
+divBuilder.classDiv('.header', '#main')
+divBuilder.classDiv('.leftSide', '#main')
+divBuilder.classDiv('.content', '#main')
+divBuilder.classDiv('.rightSide', '#main')
+divBuilder.classDiv('.footer', '#main')
