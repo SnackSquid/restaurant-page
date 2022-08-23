@@ -1,21 +1,13 @@
 import './style.css';
+import pageLoader from './pageLoader.js';
+import './pageDestroyer.js';
 
-console.log('clownpenis.fart')
+pageLoader.loadPage();
 
-const divBuilder = (() => {
+function navController(click) {
+    pageLoader.activateTab(click);
+}
 
-    const classDiv = (divClass, parentClass) => {
-        const parent = document.querySelector(parentClass);
-        const div = document.createElement('div');
-        div.classList.add(divClass);
-        parent.appendChild(div);
-    }
 
-    return { classDiv }
-})();
-
-divBuilder.classDiv('.header', '#main')
-divBuilder.classDiv('.leftSide', '#main')
-divBuilder.classDiv('.content', '#main')
-divBuilder.classDiv('.rightSide', '#main')
-divBuilder.classDiv('.footer', '#main')
+const buttons = document.querySelectorAll('.header > button');
+buttons.forEach(button => button.addEventListener('click', navController))

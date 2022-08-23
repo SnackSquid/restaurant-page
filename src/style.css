@@ -10,11 +10,28 @@ body {
     display: grid;
     height: 100vh;
     grid-template-columns: minmax(75px, 1fr) minmax(150px, 3fr) minmax(75px, 1fr);
+    grid-template-rows: minmax(30px, 60px) 1fr minmax(30px, 40px);
 }
 
-#header {
+.header {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    justify-content: center;
+    align-items: end;
     background-color: black;
     grid-column: 1 / 4;
+}
+
+.tab {
+    background-color: black;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+
+.activeTab {
+    background-color: white;
+    color: black;
 }
 
 .sideLeft {
@@ -23,9 +40,13 @@ body {
 
 .content {
     grid-column: 2 / 3;
-
 }
 
 .sideRight {
     grid-column: 3 / 4;
+}
+
+.footer {
+    background-color: black;
+    grid-column: 1 / 4;
 }
