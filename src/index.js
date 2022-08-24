@@ -6,7 +6,7 @@ import contentController from './contentController.js'
 // initial creation of the page
 pageLoader.loadPage();
 contentController.setImage('home');
-contentController.setText('content');
+contentController.setText('content', 'home');
 
 // handles all the method calls for the switching of tabs
 function navController(click) {

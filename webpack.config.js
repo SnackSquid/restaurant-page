@@ -29,6 +29,11 @@ const path = require('path');
         test: /\.xml$/i,
         use: ['xml-loader'],
       },
+      {
+        test: /\.txt$/i,
+        use: 'raw-loader',
+      },
      ],
+     
    },
  };
