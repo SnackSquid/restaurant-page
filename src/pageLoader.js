@@ -1,9 +1,17 @@
 const pageLoader = (() => {
-    const classDiv = (divClass, parentClass) => {
+    
+    const makeDiv = (divClass, parentClass) => {
         const parent = document.querySelector(parentClass);
         const div = document.createElement('div');
         div.classList.add(divClass);
         parent.appendChild(div);
+    }
+
+    const makeIMG = (imageID, parentClass) => {
+        const parent = document.querySelector(parentClass);
+        const image = document.createElement('img');
+        image.id = imageID;
+        parent.appendChild(image);
     }
 
     const navButtons = (id, parentClass) => {
@@ -16,21 +24,6 @@ const pageLoader = (() => {
         parent.appendChild(button);
     }
 
-    const loadPage = () => {
-        // load the main page
-        pageLoader.classDiv('header', '#main')
-        pageLoader.classDiv('leftSide', '#main')
-        pageLoader.classDiv('image', '#main');
-        pageLoader.classDiv('content', '#main')
-        pageLoader.classDiv('rightSide', '#main')
-        pageLoader.classDiv('footer', '#main')
-        // add the navigation buttons to the header
-        pageLoader.navButtons('home', '.header');
-        pageLoader.navButtons('menu','.header');
-        pageLoader.navButtons('about', '.header');
-        const homeButton = document.querySelector('#home');
-        homeButton.classList.add('activeTab');
-    }
 
     const activateTab = (click) => {
         click.stopPropagation();
@@ -41,12 +34,26 @@ const pageLoader = (() => {
         activeTab.classList.add('activeTab');
     }
 
-    const changeImage = (tabID) => {
-        const image = document.querySelector('image');
-
+    const loadPage = () => {
+        // load the main page
+        pageLoader.makeDiv('header', '#main');
+        pageLoader.makeDiv('leftSide', '#main');
+        pageLoader.makeDiv('image', '#main');
+        pageLoader.makeDiv('content', '#main');
+        pageLoader.makeDiv('rightSide', '#main');
+        pageLoader.makeDiv('footer', '#main');
+        // add image
+        pageLoader.makeIMG('hero', '.image');
+        // add the navigation buttons to the header
+        pageLoader.navButtons('home', '.header');
+        pageLoader.navButtons('menu','.header');
+        pageLoader.navButtons('about', '.header');
+        // set home button as the 'active' button
+        const homeButton = document.querySelector('#home');
+        homeButton.classList.add('activeTab');
     }
 
-    return { classDiv, loadPage, navButtons, activateTab }
+    return { makeDiv, loadPage, navButtons, activateTab, makeIMG }
 })();
 
 export default pageLoader;

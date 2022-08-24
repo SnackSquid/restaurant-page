@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \":root {\\n    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\\n}\\n\\nbody {\\n    margin: 0;\\n}\\n\\n#main {\\n    display: grid;\\n    height: 100vh;\\n    grid-template-columns: minmax(75px, 1fr) minmax(150px, 3fr) minmax(75px, 1fr);\\n    grid-template-rows: minmax(30px, 60px) 1fr 2fr minmax(30px, 40px);\\n}\\n\\n.header {\\n    display: grid;\\n    grid-template-columns: 50px 50px 50px;\\n    justify-content: center;\\n    align-items: end;\\n    position: sticky;\\n    top: 0;\\n    background-color: black;\\n    grid-column: 1 / 4;\\n}\\n\\n.tab {\\n    background-color: black;\\n    border: none;\\n    padding: 10px;\\n    color: white;\\n}\\n\\n.activeTab {\\n    background-color: white;\\n    color: black;\\n}\\n\\n.leftSide {\\n    grid-column: 1 / 2;\\n    grid-row: 3 / 4;\\n}\\n\\n.image {\\n    grid-column: 1 / 4;\\n    grid-row: 2 / 3;\\n    width: 100%;\\n    max-width: 300px;\\n}\\n\\n.content {\\n    grid-column: 2 / 3;\\n    grid-row: 3 / 4;\\n}\\n\\n.rightSide {\\n    grid-column: 3 / 4;\\n    grid-row: 3 / 4;\\n}\\n\\n.footer {\\n    background-color: black;\\n    grid-column: 1 / 4;\\n    grid-row: 4 / 5;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-page/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \":root {\\n    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\\n}\\n\\nbody {\\n    margin: 0;\\n}\\n\\n#main {\\n    display: grid;\\n    height: 100vh;\\n    grid-template-columns: minmax(75px, 1fr) minmax(150px, 3fr) minmax(75px, 1fr);\\n    grid-template-rows: minmax(30px, 60px) 1fr 2fr minmax(30px, 40px);\\n}\\n\\n.header {\\n    display: grid;\\n    grid-template-columns: 50px 50px 50px;\\n    justify-content: center;\\n    align-items: end;\\n    position: sticky;\\n    top: 0;\\n    background-color: black;\\n    grid-column: 1 / 4;\\n}\\n\\n.tab {\\n    background-color: black;\\n    border: none;\\n    padding: 10px;\\n    color: white;\\n}\\n\\n.activeTab {\\n    background-color: white;\\n    color: black;\\n}\\n\\n.leftSide {\\n    grid-column: 1 / 2;\\n    grid-row: 3 / 4;\\n}\\n\\n.image {\\n    grid-column: 1 / 4;\\n    grid-row: 2 / 3;\\n    width: 100%;\\n    max-height: 300px;\\n    overflow: hidden;\\n}\\n\\n#hero {\\n    display: flex;\\n    justify-content: center;\\n    align-items: center;\\n    width: 100%;\\n}\\n\\n.content {\\n    grid-column: 2 / 3;\\n    grid-row: 3 / 4;\\n}\\n\\n.rightSide {\\n    grid-column: 3 / 4;\\n    grid-row: 3 / 4;\\n}\\n\\n.footer {\\n    background-color: black;\\n    grid-column: 1 / 4;\\n    grid-row: 4 / 5;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-page/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -110,13 +110,23 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
+/***/ "./src/contentController.js":
+/*!**********************************!*\
+  !*** ./src/contentController.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _jay_wennington_N_Y88TWmGwA_unsplash2_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./jay-wennington-N_Y88TWmGwA-unsplash2.jpg */ \"./src/jay-wennington-N_Y88TWmGwA-unsplash2.jpg\");\n/* harmony import */ var _jay_wennington_N_Y88TWmGwA_unsplash_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./jay-wennington-N_Y88TWmGwA-unsplash.jpg */ \"./src/jay-wennington-N_Y88TWmGwA-unsplash.jpg\");\n\n\n\n\nconst contentController = (() => {\n\n    const setText = (div) => {\n        const content = document.querySelector(`.${div}`)\n        content.textContent = 'homeMD';\n    }\n\n    const setImage = (currentTab) => {\n        const tabs = {\n            home: _jay_wennington_N_Y88TWmGwA_unsplash2_jpg__WEBPACK_IMPORTED_MODULE_0__,\n            menu: _jay_wennington_N_Y88TWmGwA_unsplash_jpg__WEBPACK_IMPORTED_MODULE_1__,\n            about: _jay_wennington_N_Y88TWmGwA_unsplash_jpg__WEBPACK_IMPORTED_MODULE_1__\n        }\n        const image = document.querySelector('#hero');\n        image.src = tabs[currentTab];\n    }\n\n    return { setText, setImage }\n\n})();\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (contentController);\n\n//# sourceURL=webpack://restaurant-page/./src/contentController.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _pageLoader_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pageLoader.js */ \"./src/pageLoader.js\");\n/* harmony import */ var _pageDestroyer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pageDestroyer.js */ \"./src/pageDestroyer.js\");\n\n\n\n\n// initial creation of the page\n_pageLoader_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"].loadPage();\n\n// handles all the method calls for the switching of tabs\nfunction navController(click) {\n    _pageLoader_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"].activateTab(click);\n}\n\n// event listeners for the nav buttons\nconst buttons = document.querySelectorAll('.header > button');\nbuttons.forEach(button => button.addEventListener('click', navController))\n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _pageLoader_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pageLoader.js */ \"./src/pageLoader.js\");\n/* harmony import */ var _pageDestroyer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pageDestroyer.js */ \"./src/pageDestroyer.js\");\n/* harmony import */ var _contentController_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./contentController.js */ \"./src/contentController.js\");\n\n\n\n\n\n// initial creation of the page\n_pageLoader_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"].loadPage();\n_contentController_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"].setImage('home');\n_contentController_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"].setText('content');\n\n// handles all the method calls for the switching of tabs\nfunction navController(click) {\n    _pageLoader_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"].activateTab(click);\n    _contentController_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"].setImage(this.id);\n}\n\n// event listeners for the nav buttons\nconst buttons = document.querySelectorAll('.header > button');\nbuttons.forEach(button => button.addEventListener('click', navController))\n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
 
 /***/ }),
 
@@ -136,7 +146,27 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \***************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst pageLoader = (() => {\n    const classDiv = (divClass, parentClass) => {\n        const parent = document.querySelector(parentClass);\n        const div = document.createElement('div');\n        div.classList.add(divClass);\n        parent.appendChild(div);\n    }\n\n    const navButtons = (id, parentClass) => {\n        const parent = document.querySelector(parentClass);\n        const button = document.createElement('button');\n        button.id = id;\n        button.classList.add('tab');\n        const buttonText = id.charAt(0).toUpperCase() + id.slice(1);\n        button.textContent = buttonText;\n        parent.appendChild(button);\n    }\n\n    const loadPage = () => {\n        // load the main page\n        pageLoader.classDiv('header', '#main')\n        pageLoader.classDiv('leftSide', '#main')\n        pageLoader.classDiv('image', '#main');\n        pageLoader.classDiv('content', '#main')\n        pageLoader.classDiv('rightSide', '#main')\n        pageLoader.classDiv('footer', '#main')\n        // add the navigation buttons to the header\n        pageLoader.navButtons('home', '.header');\n        pageLoader.navButtons('menu','.header');\n        pageLoader.navButtons('about', '.header');\n        const homeButton = document.querySelector('#home');\n        homeButton.classList.add('activeTab');\n    }\n\n    const activateTab = (click) => {\n        click.stopPropagation();\n        const buttons = document.querySelectorAll('.header > button');\n        const tabID = click.currentTarget.id;\n        buttons.forEach(button => button.classList.remove('activeTab'))\n        const activeTab = document.querySelector(`#${tabID}`);\n        activeTab.classList.add('activeTab');\n    }\n\n    const changeImage = (tabID) => {\n        const image = document.querySelector('image');\n\n    }\n\n    return { classDiv, loadPage, navButtons, activateTab }\n})();\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (pageLoader);\n\n//# sourceURL=webpack://restaurant-page/./src/pageLoader.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst pageLoader = (() => {\n    \n    const makeDiv = (divClass, parentClass) => {\n        const parent = document.querySelector(parentClass);\n        const div = document.createElement('div');\n        div.classList.add(divClass);\n        parent.appendChild(div);\n    }\n\n    const makeIMG = (imageID, parentClass) => {\n        const parent = document.querySelector(parentClass);\n        const image = document.createElement('img');\n        image.id = imageID;\n        parent.appendChild(image);\n    }\n\n    const navButtons = (id, parentClass) => {\n        const parent = document.querySelector(parentClass);\n        const button = document.createElement('button');\n        button.id = id;\n        button.classList.add('tab');\n        const buttonText = id.charAt(0).toUpperCase() + id.slice(1);\n        button.textContent = buttonText;\n        parent.appendChild(button);\n    }\n\n\n    const activateTab = (click) => {\n        click.stopPropagation();\n        const buttons = document.querySelectorAll('.header > button');\n        const tabID = click.currentTarget.id;\n        buttons.forEach(button => button.classList.remove('activeTab'))\n        const activeTab = document.querySelector(`#${tabID}`);\n        activeTab.classList.add('activeTab');\n    }\n\n    const loadPage = () => {\n        // load the main page\n        pageLoader.makeDiv('header', '#main');\n        pageLoader.makeDiv('leftSide', '#main');\n        pageLoader.makeDiv('image', '#main');\n        pageLoader.makeDiv('content', '#main');\n        pageLoader.makeDiv('rightSide', '#main');\n        pageLoader.makeDiv('footer', '#main');\n        // add image\n        pageLoader.makeIMG('hero', '.image');\n        // add the navigation buttons to the header\n        pageLoader.navButtons('home', '.header');\n        pageLoader.navButtons('menu','.header');\n        pageLoader.navButtons('about', '.header');\n        // set home button as the 'active' button\n        const homeButton = document.querySelector('#home');\n        homeButton.classList.add('activeTab');\n    }\n\n    return { makeDiv, loadPage, navButtons, activateTab, makeIMG }\n})();\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (pageLoader);\n\n//# sourceURL=webpack://restaurant-page/./src/pageLoader.js?");
+
+/***/ }),
+
+/***/ "./src/jay-wennington-N_Y88TWmGwA-unsplash.jpg":
+/*!*****************************************************!*\
+  !*** ./src/jay-wennington-N_Y88TWmGwA-unsplash.jpg ***!
+  \*****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"3d2794dc83c9f6633434.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/jay-wennington-N_Y88TWmGwA-unsplash.jpg?");
+
+/***/ }),
+
+/***/ "./src/jay-wennington-N_Y88TWmGwA-unsplash2.jpg":
+/*!******************************************************!*\
+  !*** ./src/jay-wennington-N_Y88TWmGwA-unsplash2.jpg ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"88c0784f405f2b3d0f5e.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/jay-wennington-N_Y88TWmGwA-unsplash2.jpg?");
 
 /***/ })
 
@@ -191,6 +221,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -205,6 +247,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
