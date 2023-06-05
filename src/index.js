@@ -1,7 +1,7 @@
 import './style.css';
-import pageLoader from './pageLoader.js';
-import pageDestroyer from './pageDestroyer.js';
-import contentController from './contentController.js'
+import pageLoader from './modules/pageLoader.js';
+import pageDestroyer from './modules/pageDestroyer.js';
+import contentController from './modules/contentController.js'
 
 // initial creation of the page
 pageLoader.loadPage();

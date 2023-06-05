@@ -36,6 +36,10 @@ const pageLoader = (() => {
 
     const loadPage = () => {
         // load the main page
+        const mainDiv = document.createElement('div');
+        mainDiv.id = 'main';
+        document.body.appendChild(mainDiv);
+
         pageLoader.makeDiv('header', '#main');
         pageLoader.makeDiv('leftSide', '#main');
         pageLoader.makeDiv('image', '#main');

@@ -1,7 +1,7 @@
-import homeImage from './jay-wennington-N_Y88TWmGwA-unsplash2.jpg'
-import menuImage from './jay-wennington-N_Y88TWmGwA-unsplash.jpg';
-import aboutImage from './jay-wennington-N_Y88TWmGwA-unsplash.jpg';
-import homeText from './homepage.txt'
+import homeImage from '/home/chub/repos/restaurant-page/src/images/jay-wennington-N_Y88TWmGwA-unsplash.jpg'
+import menuImage from '/home/chub/repos/restaurant-page/src/images/ambitious-creative-co-rick-barrett-6pHiNI4qEnQ-unsplash.jpg';
+import aboutImage from '/home/chub/repos/restaurant-page/src/images/shawnanggg-nmpW_WwwVSc-unsplash.jpg';
+import homeText from '/home/chub/repos/restaurant-page/src/homepage.txt'
 
 const contentController = (() => {
 
